@@ -1,4 +1,4 @@
-# 🛡️ Digital Cybersecurity Surveillance System (v2.1)
+#  Digital Cybersecurity Surveillance System (v2.1)
 
 A **live digital cybersecurity surveillance system** designed to monitor identification code usage, detect behavioral anomalies, perform graph-based suspicious relationship analysis, and deliver risk-based decisions automatically.
 
@@ -7,13 +7,13 @@ A **live digital cybersecurity surveillance system** designed to monitor identif
 ![NetworkX](https://img.shields.io/badge/NetworkX-Graph_Analysis-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-## 📖 About the Tool
+## About the Tool
 
 In modern environments, compromised credentials and shared accounts are significant vulnerabilities. This tool serves as an autonomous **Decision Engine** that processes access logs (who accessed what, when, and from which device) and intelligently determines whether an activity is normal or suspicious. 
 
 It evaluates usage patterns using **rule-based anomaly detection** and visualizes relationships using **Graph Theory**, making it incredibly easy to identify a single user exploiting multiple IDs or a single ID being suspiciously shared across multiple devices.
 
-### ✨ Key Features
+###  Key Features
 - **Multi-format Data Upload**: Supports uploading live access logs in `CSV`, `JSON`, and tabular `PDF` formats.
 - **Data Validation & Sanitization**: Automatically checks ID formatting and handles missing/invalid entries securely.
 - **Rule-Based Anomaly Detection**: Flags users who exceed standard login thresholds.
@@ -21,7 +21,7 @@ It evaluates usage patterns using **rule-based anomaly detection** and visualize
 - **Risk Scoring System**: Assigns qualitative scores (`Low`, `Medium`, `High`) and automated responses (`Allow`, `Flag`, `Block`).
 - **Interactive UI**: A dark-mode, premium Streamlit dashboard to interactively visualize threats and download flagged reports.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```text
 ├── app/
@@ -39,7 +39,7 @@ It evaluates usage patterns using **rule-based anomaly detection** and visualize
 └── requirements.txt            # Python dependencies
 ```
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. **Clone the Repository**
    ```bash
@@ -57,7 +57,7 @@ It evaluates usage patterns using **rule-based anomaly detection** and visualize
    streamlit run dashboard/streamlit_dashboard.py
    ```
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 To run this application via Docker:
 
@@ -67,7 +67,7 @@ docker run -p 8501:8501 cybersec-surveillance
 ```
 The app will be available at `http://localhost:8501`.
 
-## ☁️ Cloud Deployment (Render)
+##Cloud Deployment (Render)
 This project is deployment-ready for platforms like **Render**:
 1. Connect your GitHub repo to Render.
 2. Select **Web Service** -> **Docker**.
