@@ -62,7 +62,10 @@ docker run -p 8501:8501 cybersec-surveillance
 ```
 The app will be available at `http://localhost:8501`.
 
-##Cloud Deployment (Render)
+
+##DEPLOYED ON STREAMLIT:
+
+## IF IN CASE OF Cloud Deployment (Render)
 This project is deployment-ready for platforms like **Render**:
 1. Connect your GitHub repo to Render.
 2. Select **Web Service** -> **Docker**.
