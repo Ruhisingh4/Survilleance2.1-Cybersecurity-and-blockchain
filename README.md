@@ -2,11 +2,6 @@
 
 A **live digital cybersecurity surveillance system** designed to monitor identification code usage, detect behavioral anomalies, perform graph-based suspicious relationship analysis, and deliver risk-based decisions automatically.
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-Framework-FF4B4B)
-![NetworkX](https://img.shields.io/badge/NetworkX-Graph_Analysis-green)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-
 ## About the Tool
 
 In modern environments, compromised credentials and shared accounts are significant vulnerabilities. This tool serves as an autonomous **Decision Engine** that processes access logs (who accessed what, when, and from which device) and intelligently determines whether an activity is normal or suspicious. 
